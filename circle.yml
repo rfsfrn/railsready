@@ -1,0 +1,15 @@
+## Customize the test machine
+machine:
+  # Version of ruby to use
+  ruby:
+    version:
+      2.0.0-p645
+
+## Customize dependencies
+dependencies:
+  pre:
+    - git clone https://github.com/sstephenson/bats.git
+    - cd bats && sudo ./install.sh /usr/local
+test:
+  override:
+    - bash test/run.sh
