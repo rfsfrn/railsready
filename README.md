@@ -2,6 +2,7 @@ railsready
 ==========
 
 [![RailsReady Build Status - Circle CI](https://circleci.com/gh/rfsfrn/railsready/tree/master.svg?style=shield&circle-token=16fa4a8e8208d4341ffbe39e84b32c55c7060190)](https://circleci.com/gh/rfsfrn/railsready/tree/master)
+[![RailsReady MIT license](https://img.shields.io/badge/license-MIT%20license-blue.svg)](LICENSE)
 
 Script to set up a new Ruby on Rails development environment.
 
